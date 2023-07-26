@@ -11,7 +11,7 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar-light.png")
   } else {
     // se tiver sem light mode, manter a forma normal.
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar (1).svg")
   }
   const img1 = document.querySelector("#profile")
   if (html.classList.toggle("lights")) {
